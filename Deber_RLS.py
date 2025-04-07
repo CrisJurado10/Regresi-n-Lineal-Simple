@@ -42,9 +42,11 @@ plt.xlabel('Área Habitable (GrLivArea)')
 plt.ylabel('Precio de Venta (SalePrice)')
 plt.show()
 
-#Interpretaciíon matematica
+#Interpretaciíon 
 # Análisis Matemático de la Regresión Lineal Simple:
 # El modelo entrenado es de la forma: y = β₀ + β₁ * x
+# Variable Dependiente: SalePrice
+# Variable Independiente: GrLivArea
 # Donde:
 #   - y es el Precio de Venta (SalePrice)
 #   - x es el Área Habitable (GrLivArea)
@@ -53,11 +55,19 @@ plt.show()
 
 # La regresión lineal simple estima los coeficientes β₀ y β₁
 
+# Significado de los coeficientes:
+#    - β₁ (pendiente): representa el cambio estimado en el precio de venta por cada unidad adicional 
+#      de área habitable. Si β₁ > 0, la relación es positiva.
+#    - β₀ (intercepto): representa el valor estimado del precio de venta cuando el área habitable es 0.
+
 # En este caso, observamos una correlación positiva entre GrLivArea y SalePrice,
 # lo cual se visualiza en la pendiente positiva de la línea azul.
 
+# En resumen:
 # El modelo captura la tendencia general del crecimiento de precios con respecto al área habitable,
-# La dispersión de los puntos sugiere que una regresión lineal simple puede no ser suficiente para explicar completamente la variabilidad en los precios de venta.
+# La dispersión de los puntos sugiere que una regresión lineal simple puede no ser suficiente para explicar completamente la variabilidad en los precios de venta
+# La regresión lineal simple proporciona una primera aproximación útil a la relación entre el área habitable
+# El precio de venta, pero su poder predictivo es limitado debido a la naturaleza multivariable del problema.
 
 
 
