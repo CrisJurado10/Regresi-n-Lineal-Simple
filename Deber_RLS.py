@@ -51,8 +51,7 @@ plt.show()
 #   - β₀ es la ordenada al origen (intercepto)
 #   - β₁ es la pendiente (coeficiente de regresión)
 
-# La regresión lineal simple estima los coeficientes β₀ y β₁ minimizando la suma de los errores cuadráticos (MSE)
-# sobre el conjunto de entrenamiento.
+# La regresión lineal simple estima los coeficientes β₀ y β₁
 
 # En este caso, observamos una correlación positiva entre GrLivArea y SalePrice,
 # lo cual se visualiza en la pendiente positiva de la línea azul.
