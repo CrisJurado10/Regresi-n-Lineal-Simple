@@ -63,6 +63,24 @@ plt.show()
 # En este caso, observamos una correlación positiva entre GrLivArea y SalePrice,
 # lo cual se visualiza en la pendiente positiva de la línea azul.
 
+# Análisis de las gráficas
+# 1. Gráfica del conjunto de ENTRENAMIENTO:
+#    - Los puntos rojos representan los datos reales de entrenamiento (SalePrice vs GrLivArea).
+#    - La línea azul es la línea de regresión ajustada: y = β₀ + β₁ * x.
+#    - Se observa una clara correlación positiva: a mayor área habitable, mayor es el precio de venta.
+#    - Esto se traduce en una pendiente positiva β₁ > 0.
+#    - La mayoría de los puntos están cercanos a la línea, lo cual indica un buen ajuste en el conjunto de entrenamiento.
+#    - Sin embargo, hay outliers con grandes desviaciones, lo que sugiere que otros factores también influyen en el precio.
+
+# 2. Gráfica del conjunto de PRUEBA:
+#    - Se evalúa qué tan bien generaliza el modelo a datos no vistos.
+#    - La línea azul es la misma que en la gráfica anterior (misma recta ajustada).
+#    - Los puntos rojos son los valores reales de prueba.
+#    - Se observan patrones similares: alineación general con la recta, pero con mayor dispersión que en entrenamiento.
+#    - Esto sugiere que el modelo tiene una capacidad aceptable de generalización, pero no capta toda la complejidad.
+#    - La variabilidad no explicada por la línea indica que una sola variable (GrLivArea) no es suficiente para predecir con alta precisión.
+
+
 # En resumen:
 # El modelo captura la tendencia general del crecimiento de precios con respecto al área habitable,
 # La dispersión de los puntos sugiere que una regresión lineal simple puede no ser suficiente para explicar completamente la variabilidad en los precios de venta
